@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="styles.css" rel="stylesheet">
+<script src="script.js"></script>
+<title>The Cranberries</title>
+</head>
+<body>
+
+
+<header id="top">
+    
+    <section id="home">
+        <h1> The Cranberries</h1>
+        <nav>
+            <h2>Main Navigation</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#bandabout">About</a></li>
+                <li><a href="#discography">Discography</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li onclick="toTop()" ><a href="#top"> Back to Top</a></li>
+            </ul>
+
+        </nav>
+    </section>  
+</header>
+
+<main>
+    <section class="discription">
+    <img id="logo2023" src="TheCranberriesMain.jpg" alt="The Cranberries 2023 Logo">
+    <h2 id="discriptionText">The Cranberries were an Irish rock bank formed in Limerick, Ireland, in 1989. The band features lead singer Dolores O'Riordan, guitarist Noel Hogan, bassist Mike Hogan and drummer.
+    </h2 >
+    </section>
+   
+
+
+   <br>
+
+    <section>
+        <h2 id="about">About</h2>
+
+        <h3 id = "band">Meet The Band</h3>
+    </section>
+    <section id="bandabout">
+        <p> The band was originally named The Cranberries Saw Us and featured singer Niall Quinn, Quinn was replaced by now lead singer Dolores in 1990. The band classified themselves as a alternative rock group, but incorported aspects of indie rock, jangle pop, dream pop, folk rock, post-punk and pop rock into their sound. In 1991 they released their debut album, Everybody Else Is Doing It, So Why Can't We? Their second album, No Need To Argue (1994), brought the band to internation fame, and included the single "Zombie", which became a stadium anthem and one of the band's most recognizable songs.</p>
+
+        <section id="earlyyears">
+            <img id="back" src="earlyyears.jpg" alt="Early years when the band first met.">
+
+        <p>Brothers Noel Hogan and Mike Hogan met Fergal Lawler in the mid-1980s, where the young kids grew up in Limerick, Ireland. Later meeting Dolores after putting a advertisement in for a female singer. Mike Hogan later described the meeting as "we were immediately blown away, her voice was something special..she was so small and quiet...then she opened her mouth and this amazing voice, this huge voice came out of the size of her."
+        </p>
+
+       
+    </section>
+   
+        <p>Dolores became one of the most recognizable voices in rock in the 1990s, she was known for her lilting mezzo-soprano voice, signature yodel, emphasized use of keening, and strong Limerick accent. Unforuntely she died in January of 2018 during the production of a new album soon to be released. After the passing of Dolores, her bandmates, friends and family, have pulled together a brand new playlist called 'Remembering Dolores' which is available now on all streaming platforms.</p>
+
+        <img id="side" src="dolores.jpg" alt="Dolores O'Riordan iconic singer of the Cranberries.">
+
+        <p id="remembering"><a href="https://thecranberries.lnk.to/Dolores" target="-blank"> Remembering Dolores</a></p>
+    </section>
+        
+    <h2 id="early">"With their tanks and their bombs, and their bombs and their guns. In your head, in your head, they are dying..."</h2>
+
+    <br><br>
+        <div id="disco1">
+         <section id="discography">
+             <h3>Discography</h3>
+         </section>
+         <div >
+             <div id="disco">
+                 <section id="disc1" class="disc">
+                     <img src="everybody.jpg" alt="Everybody Else Is Doing It, So Why Can't We? Album Cover">
+                     <h3>Everybody Else Is Doing It, So Why Can't We?</h3>
+                     <p>Release date: March 1st, 1993.<br><br>Both the band's first full-length album and major label release.</p>
+                     <p>CD $20 <label class="label-right">Add to Cart</label><input onclick = "updateSelectedProduct()" type="checkbox" name="add" value="CD Album $20" id="check1"> </p>
+                 </section>
+                 <section id="disc2" class="disc">
+                     <img src="noneed.jpg" alt="No Need To Argue Album Cover">
+                     <h3>No Need To Argue</h3>
+                     <p>Release date: October 3rd 1994.<br><br>
+                         The best selling album, and has sold 17 million copies worldwide as of 2014.</p>
+                     <p>CD: $30 <label class="label-right">Add to Cart</label> <input type="checkbox" name="add" value="CD Album $30" id="check2"></p>
+                 </section>
+                 <section id="disc3" class="disc">
+                     <img src="faithful.jpg" alt="To The Faithful Departed Album Cover">
+                     <h3>To the Faith Departed</h3>
+                     <p>Release date: April 22nd, 1996.<br><br>This album was made in memory of Denny Cordell who signed the band to Island Records.</p>
+                     <p>CD: $20 <label class="label-right">Add to Cart</label><input type="checkbox" name="add" value="CD Album $20" id="check3"> </p>
+                 </section>
+                  <section id="disc4" class="disc">
+                     <img src="stars.jpg" alt="Stars: The Best of 1992-2002">
+                     <h3>Stars: The best of 1992-2002</h3>
+                     <p>Release date: September 16th 2002.<br><br>Compilation album and DVD. Contains two new tracks: "New New York" and "Stars".</p>
+                     <p>CD/DVD: $40 <label class="label-right">Add to Cart</label><input type="checkbox" name="add" value="CD/DVD $40" id="check4"> </p>
+                 </section>
+                  <section id="disc5" class="disc">
+                     <img src="packshotweb.png" alt="Something Else Album Cover">
+                     <h3>Something Else</h3>
+                     <p>Release Date: April 28th 2017.<br><br>
+                         The album, which features "unplugged" and orchestral versions of ten previously released singles and three new songs, was recorded at the Irish Chamber Orchestra Building, the University of Limerick, Ireland</p>
+                     <p>CD: $20 <label class="label-right">Add to Cart</label><input type="checkbox" name="add" value="CD $20" id="check5"> </p>
+                 </section>
+                 <section id="disc6" class="disc">
+                     <img src="intheend.jpg" alt="In The End Album Cover">
+                     <h3>In The End</h3>
+                     <p>Release Date: April 26th, 2019.<br><br>It is the band's first and only release since the death of singer Dolores O'Riordan, whose vocals are featured posthumously.</p>
+                     <p>CD/Vinyl: $100 <label class="label-right">Add  to Cart</label><input type="checkbox" name="add" value="CD/Vinyl" id="check6"> </p>
+                 </section>
+                 </div>
+                 <section id="total-cart">
+                     <h3>Cart</h3>
+
+                     <ul id="shoppingList"> 
+                         <li></li>
+                     </ul>
+                     
+                     <ul>
+                         <li id="subTotal">SUBTOTAL</li>
+                         <li id="salesTax">Sales Tax 6.1%</li>
+                         <li id="shipping">Shipping $10.00</li>
+                         <li id="total">Total</li>
+                         <li id="totalAmount">$0.00</li>
+                     </ul>
+                     <button id="checkout" onclick="checkOutAlert()">Check Out</button>
+                 </section>
+             </div>
+         </div>
+
+    
+    
+    <section id="contact">
+        <h2>Contact us with any questions</h2>
+        <form>
+            <label for="fullname">Full name<span class="required">*</span></label>
+            
+            <input id="fullname" type="text" name="fullname">
+            
+            <label for="email">Email<span class="required">*</span></label>
+            
+            <input type="email" id="email" name="email">
+            
+            <label for="phone">Phone<span class="required">*</span></label>
+            
+            <input type="text" id="phone" name="phone">
+            
+          <fieldset>
+            <legend>Contact Method<span class="required">*</span></legend>
+            <input id="phonepcm" type="radio" name="pref-contact" value="phone">
+            <label for="phone">Phone</label>
+            <input id="emailpcm" type="radio" name="pref-contact" value="email">
+            <label for="email">Email</label>
+          </fieldset>
+                
+             <label for="message">Message</label>
+          <textarea id="message" required></textarea>
+          <input type="submit" name="submit" value="Submit">
+          
+        </form>
+    </section>
+
+ 
+       
+ </main>   
+       
+    
+        
+<footer>
+   Alyssa Keating 2024
+
+   
+
+</footer>
+</body>
+</html>
